@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/app';
+import './styles/index.css';
 
 const container = document.getElementById('container');
 
-const myDiv = <div>React Works!</div>;
-
-ReactDOM.render(myDiv, container);
+ReactDOM.render(<App/>, container);
